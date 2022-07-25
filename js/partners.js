@@ -27,7 +27,7 @@ const partners = () => {
       a.addEventListener('click', (event) => {
         event.preventDefault();
         localStorage.setItem('restaurant', JSON.stringify(element));
-        window.location.pathname = '/restaurant.html';
+        window.location.pathname = 'deliveryFood/restaurant.html';
       });
 
       cardsRestaurants.append(a);
